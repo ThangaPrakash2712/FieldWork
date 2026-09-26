@@ -1,9 +1,6 @@
 # WeltNexus — Field Work: Drone Image to 3D Building Model
 
-> **Smart India Hackathon 2026** · Problem Statement **SIH26011** — *3D ULPIN Generation and Vertical Property Mapping System*
-> **Team:** Neural@Ninjas (Team ID 178769)
-
-This repository documents our real-world field trial: capturing a residential building with a drone and converting the imagery into a measurable 3D model. The trial validates the first stage of the WeltNexus pipeline — **drone imagery → 3D mesh → building height** — on real data, not simulated data.
+This repository documents our real-world field trial
 
 ---
 
@@ -38,14 +35,9 @@ We requested drone equipment and imagery support from the **AICTE–AVPL Aero Vi
 | Parameter | Value |
 |---|---|
 | Location | Coimbatore, Tamil Nadu |
-| Date of flight | `[ADD DATE]` |
-| Drone model | `[ADD MODEL]` |
-| Camera | `[ADD CAMERA / SENSOR]` |
-| Flight altitude | `[ADD — metres AGL]` |
-| Flight pattern | `[ADD — e.g., grid + orbit / oblique]` |
-| Image overlap | `[ADD — e.g., 75% front / 65% side]` |
-| Ground Sampling Distance | `[ADD — cm/pixel, from ODM report]` |
-| Ground Control Points | `[ADD — number used, or "none"]` |
+| Date of flight | 12.09.2026 |
+| Drone model | DIY Drone |
+| Camera | Fit in camera |
 
 Flights were carried out within permitted airspace under the Drone Rules, 2021. `[CONFIRM zone — green/yellow — from the Digital Sky airspace map]`
 
@@ -82,33 +74,14 @@ OpenDroneMap (ODM)  ── structure-from-motion + dense matching
 
 ---
 
-## Repository Structure
-
-```
-fieldwork/
-├── README.md
-├── images/          # sample drone images (full set: see Data Access)
-├── outputs/
-│   ├── orthophoto/
-│   ├── dsm_dtm/
-│   ├── pointcloud/
-│   └── mesh/
-├── reports/         # ODM processing report
-└── screenshots/     # field photos and model previews
-```
-
-`[EDIT to match your actual folders]`
-
----
-
 ## Links
 
 | Resource | Link |
 |---|---|
 | Live prototype | https://weltnexus-flax.vercel.app/login |
-| Exterior 3D model | `https://snihaal2006.github.io/3D-ULPIN-Cadastre/` |
-| Interior 3D model | `[ADD LINK]` |
-| Demo video | `[ADD LINK]` |
+| Exterior 3D model | https://snihaal2006.github.io/3D-ULPIN-Cadastre/ |
+| Interior 3D model | https://isth232-cyber.github.io/ground/ |
+| Demo video |  |
 
 ---
 
